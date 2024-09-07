@@ -1,181 +1,33 @@
-*{
-margin: 0;
-padding: 0;
-border: 0;
-font-size: 106%;
-vertical-align: baseline;
-}
-
-
-
 body {
-    background-image: url("OIP.jpg"); animation: infinite;
-    background-image: -webkit-repeating-linear-gradient();
-    background-position: center;
-}
-p{
-    color:rgb(0, 4, 255);
-    font-style: oblique;
-    font-family: 'Courier New', Courier, monospace;
-    font-style: inherit;
-    background-color: rgba(59, 36, 79, 0.699);
-    text-align: center;
-}
-h1{
-    color:rgb(0, 4, 255);
-    background-color:rgba(59, 36, 79, 0.699);
-    font-size:x-large;
-    text-align:center;
-}
-h2{
-    color:rgb(0, 4, 255);
-    font-size-adjust: calc(2);
-    text-align:center;
-}
-h3{
-    color:rgb(0, 4, 255);
-    font-size-adjust: calc(1);
-    text-align:center;
+    font-family: 'Arial', sans-serif;
+    image-resolution: 20;
 }
 
 
-p.center{
-    text-align: left;
-    font-size: medium;
-    color:rgb(0, 255, 17)
-}
-.texto-centrado
-{
-    text-align: center;
-    font-size: medium;
-    color:rgb(0, 255, 17)
-}
-.texto_rojo
-{
-    color:red;
-}
-.letra_tamano_12
-{
-    font-size: 12px;
-}
-.texto_verde
-{
-    color:rgb(43, 255, 0);
-}
-.letra_tamano_16
-{
-    font-size: 16px;
-}
-.texto_dorado
-{
-    color:gold;
-}
-.letra_tamano_14
-{
-    font-size: 14px;
-}
-
-#link_rojo{
-    color:red;
-    font-size:smaller;
-}
-#color_amarillo{
-    color:yellow;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
-    top:600px;
-}
-
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    
-    overflow: hidden;
-    background-color: rgb(43, 226, 76);
-}
-li{
-    
-    float:left;  
-}
-li a{
-    color:rgb(170, 255, 127);
-    text-align: center;
-    padding: 14px 16px;
-}
-li a:hover{
-    background-color: brown;
-    color: white;
-}
-
-input[type-text], select{
-    width:100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    border:1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-input[type-submit], select{
-    width:30%;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border:1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    background-color: blanchedalmond;
-}
-
-
-
-.navbar {
-    display: flex;
-    margin-right: 10px;
-}
-
-
-
-.navbar a:hover{
-    background: #961da6;
-}
-
-.navbar {
-    display: flex; text-align: center;
-    font-display:rgba(59, 36, 79, 0.699);
-
-}
-.navbar {
-    background-color: rgba(132, 12, 237, 0.699);
-    display: flex;           
-    justify-content: center;  
-    align-items: center;     
-    padding: 10px 10px;
-    text-align: center;    
-    text-decoration: wavy;
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #0056b3;
     text-transform: uppercase;
-    font-size: 20px;
+    letter-spacing: 1.5px;
+    font-style: oblique;
 }
 
-.header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.header {
-    height: 60vh !important;
-background: url(wp8824808.webp) no-repeat center;
-background-size: cover;
-}
-
-.imagen {
-    width: 200px; 
-    height: auto; 
-}
-.texto-debajo {
-    text-align: ;color: blueviolet;
-    margin-top: 10px; 
+.text-center {
+    text-align: center;
 }
 
 
+img {
+    max-width: 100%;
+    height: auto;
+}
 
+.btn-primary {
+    background-color: #0056b3;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #003f87;
+}
